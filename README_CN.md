@@ -28,6 +28,10 @@
       - [c. 服务条款与隐私政策](#c----------)
     + [5.6  退出登录](#56------)
 # 云搭配用户使用指南
+[![License](https://img.shields.io/badge/License-Apache%202-brightgreen.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+[![API](https://img.shields.io/badge/API-28%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=28)
+[![Size](https://img.shields.io/badge/Size-226.4MB-critical.svg)](https://fir.im/d1pn)
+
 中文指南 | [English User Guide](README.md)
 ## 1  新用户注册
 欢迎您使用Group 4云搭配软件及服务！ 云搭配由北京交通大学分组项目BJTU Group 4开发。
