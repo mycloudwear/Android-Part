@@ -1,3 +1,4 @@
+[中文指南](README_CN.md) | English User Guide
 # MyCloudwear User Guide
 **Category**
 - [MyCloudwear User Guide](#mycloudwear-user-guide)
