@@ -257,3 +257,8 @@ If you want to learn more about this, you can click **Terms of Service** and **P
 
 ### 5.6 Log Out
 If you want to log out this account or switch to another account, you can click **Log Out** button at **Me**, the account will be logged out and switch to the page of Log in. 
+# Acknowledgement
+* **Junwen Jiang** for [SelectPhotoDemo](https://github.com/kongkongdaren/SelectPhotoDemo)  
+* **linqianyue** for [country-picker-android](https://github.com/sahooz/country-picker-android)
+* **Fengwen Kim** for [PullToRefresh](https://github.com/823546371/PullToRefresh)
+* **littlecurl** for [JustLoginRegisterTest](https://github.com/littlecurl/AppProjects/tree/master/JustLoginRegisterTest)
