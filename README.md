@@ -1,6 +1,6 @@
 [中文指南](README_CN.md) | English User Guide
 
-**Table of Contents**
+# Table of Contents
 - [MyCloudwear User Guide](#mycloudwear-user-guide)
   * [1  Sign Up](#1--sign-up)
   * [2  Sign In](#2--sign-in)
