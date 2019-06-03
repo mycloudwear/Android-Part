@@ -31,7 +31,8 @@
 # MyCloudwear User Guide
 [![License](https://img.shields.io/badge/License-Apache%202-brightgreen.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![API](https://img.shields.io/badge/API-28%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=28)
-[![Size](https://img.shields.io/badge/Size-226.4 MB-critical.svg)](https://fir.im/d1pn)
+[![Size](https://img.shields.io/badge/Size-226.4MB-critical.svg)](https://fir.im/d1pn)
+
 [中文指南](README_CN.md) | English User Guide
 ## 1  Sign Up
 Welcome to use Group 4 MyCloudwear services! MyCloudwear matching was developed by BJTU Group 4, a group project of Beijing Jiaotong University.
