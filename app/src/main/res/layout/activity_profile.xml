@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#ECECEE"
+        android:fitsSystemWindows="true">
+
+        <ImageButton
+            android:id="@+id/ib_title_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:paddingTop="20dp"
+            android:src="@mipmap/toolbar_left" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingTop="20dp"
+            android:text="@string/profile"
+            android:textColor="#2A2A2A"
+            android:textSize="18sp"
+            android:typeface="sans" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="@string/choose_gender"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <RadioButton
+                android:id="@+id/btn_male"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="@string/male" />
+
+            <RadioButton
+                android:id="@+id/btn_female"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="@string/female" />
+
+            <RadioButton
+                android:id="@+id/btn_others"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="@string/others" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/btn_frame"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/displayHeight"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:text="@string/height"
+            android:textAlignment="textEnd"
+            android:textColor="@color/smssdk_lv_tv_color"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edt_height"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="2dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="cm"
+            android:textSize="18sp"
+            android:typeface="sans" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/btn_frame"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/displayWeight"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:text="@string/weight"
+            android:textAlignment="textEnd"
+            android:textColor="@color/smssdk_lv_tv_color"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edt_weight"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="2dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/text_cm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="kg"
+            android:textSize="18sp"
+            android:typeface="sans" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_frame"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/displayBMI"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:gravity="center|right"
+            android:text="BMI"
+            android:textColor="@color/smssdk_lv_tv_color"
+            android:textSize="18sp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/show_BMI"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textColor="@color/smssdk_lv_tv_color"
+            android:textSize="18sp"
+            android:typeface="sans" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/btn_deleteAccountQ"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_round"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="updateBMI"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:stateListAnimator="@null"
+            android:text="@string/update"
+            android:textAllCaps="false"
+            android:textColor="@color/smssdk_bg_gray"
+            android:textSize="18sp"
+            android:typeface="sans" />
+    </LinearLayout>
+
+</LinearLayout>

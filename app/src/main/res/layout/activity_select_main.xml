@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <RelativeLayout
+        android:id="@+id/rl_back"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#ECECEE"
+        android:fitsSystemWindows="true">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:onClick="goBack"
+            android:paddingTop="20dp"
+            android:src="@mipmap/toolbar_left" />
+
+        <TextView
+            android:id="@+id/btn_sure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/select"
+            android:textSize="18sp"
+            android:typeface="sans" />
+    </RelativeLayout>
+    <GridView
+      android:layout_below="@+id/rl_back"
+      android:id="@+id/id_gridView"
+      android:paddingTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:numColumns="4"
+      android:stretchMode="columnWidth"
+      android:cacheColorHint="@android:color/transparent"
+      android:listSelector="@android:color/transparent"
+      android:horizontalSpacing="3dp"
+      android:verticalSpacing="3dp">
+    </GridView>
+    <RelativeLayout
+        android:id="@+id/rl_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#4D96F2"
+        android:clipChildren="true">
+        <TextView
+            android:id="@+id/tv_dir_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical ="true"
+            android:paddingLeft="10dp"
+            android:text="@string/album"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:typeface="sans"/>
+        <TextView
+            android:id="@+id/tv_dir_count"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="10dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"/>
+    </RelativeLayout>
+</RelativeLayout>

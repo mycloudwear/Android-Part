@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECECEE">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#ECECEE"
+        android:fitsSystemWindows="true">
+
+        <ImageButton
+            android:id="@+id/ib_title_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:paddingTop="20dp"
+            android:src="@mipmap/toolbar_left" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingTop="20dp"
+            android:text="@string/name"
+            android:textColor="#2A2A2A"
+            android:textSize="18sp"
+            android:typeface="sans" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txt_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FEFFFF"
+            android:ems="10"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/btn_update_name"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_round"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="updateName"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:stateListAnimator="@null"
+            android:text="@string/update"
+            android:textAllCaps="false"
+            android:textColor="@color/smssdk_bg_gray"
+            android:textSize="18sp"
+            android:typeface="sans" />
+    </LinearLayout>
+
+</LinearLayout>

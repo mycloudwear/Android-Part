@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Library</string>
+    <string name="search">Search</string>
+    <string name="release_refresh">Release refresh</string>
+    <string name="pull_down_loading">Pull down loading</string>
+    <string name="refreshing">Refreshing...</string>
+    <string name="pull_down_to_refresh">Pull down to refresh</string>
+</resources>

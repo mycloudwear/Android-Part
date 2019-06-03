@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mycloudwear">
+    <!--网络通信权限-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <!--允许程序设置内置sd卡的写权限-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!--允许程序读写手机状态和身份-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!--允许程序访问CellID或WiFi热点来获取粗略的位置-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!--用于申请调用A-GPS模块-->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <!--用于申请获取蓝牙信息进行室内定位-->
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-feature android:name="android.hardware.camera" />
+
+
+    <application
+        android:allowBackup = "true"
+        android:icon = "@mipmap/ic_launcher"
+        android:label = "@string/app_name"
+        android:supportsRtl = "true"
+        android:theme = "@style/AppNoActionBar"
+        android:name = "com.mob.MobApplication"
+        android:networkSecurityConfig="@xml/network_security_config"
+        tools:ignore = "GoogleAppIndexingWarning">
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <!--                测试页                          -->
+        <!--                启动页                          -->
+        <activity android:name = "com.mycloudwear.login.Splash"
+            android:theme = "@style/AppFullScreen">
+            <intent-filter>
+                <action android:name = "android.intent.action.MAIN" />
+
+                <category android:name = "android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <!--              登陆界面                          -->
+        <activity android:name = "com.mycloudwear.login.LoginActivity"
+            android:theme = "@style/AppLogin">
+        </activity>
+        <activity android:name = "com.mycloudwear.documentpages.TermsActivity">
+        </activity>
+        <activity android:name = "com.mycloudwear.documentpages.PrivacyActivity">
+        </activity>
+        <activity android:name = "com.mycloudwear.documentpages.FreshActivity">
+        </activity>
+        <activity android:name = "com.mycloudwear.documentpages.DeleteAccountActivity">
+        </activity>
+        <activity android:name = "com.mycloudwear.documentpages.DeletePhotoActivity">
+        </activity>
+        <!--                手机验证界面                          -->
+        <activity android:name = "com.mycloudwear.login.VerifyPhoneActivity">
+        </activity>
+        <activity android:name = "com.mycloudwear.login.VerifyAccount">
+        </activity>
+        <!--                密码重置界面                    -->
+        <activity android:name = "com.mycloudwear.login.SetPasswordActivity">
+        </activity>
+        <!--                Cloudwear 主界面                     -->
+        <activity android:name = "com.mycloudwear.mainpages.HomepageActivity">
+        </activity>
+        <!--                Cloudwear 相册管理                     -->
+        <activity android:name = "com.mycloudwear.mainpages.PhotoActivity">
+        </activity>
+        <activity android:name = "com.mycloudwear.mainpages.TopActivity">
+        </activity>
+        <activity android:name = "com.mycloudwear.mainpages.PantActivity">
+        </activity>
+        <activity android:name = "com.mycloudwear.mainpages.SkirtActivity">
+        </activity>
+        <activity android:name = "com.mycloudwear.mainpages.SelectPhotoActivity">
+        </activity>
+        <!--                Cloudwear 设置界面                     -->
+        <activity android:name = "com.mycloudwear.mainpages.MyActivity">
+        </activity>
+        <activity android:name = "com.mycloudwear.settingspage.AccountActivity">
+        </activity>
+        <activity android:name = "com.mycloudwear.settingspage.ChangePhotoActivity">
+        </activity>
+        <activity android:name = "com.mycloudwear.settingspage.GeneralActivity">
+        </activity>
+        <activity android:name = "com.mycloudwear.settingspage.ProfileActivity">
+        </activity>
+        <activity android:name = "com.mycloudwear.settingspage.ChangeUserNameActivity">
+        </activity>
+        <activity android:name = "com.mycloudwear.settingspage.HelpActivity">
+        </activity>
+        <activity android:name = "com.mycloudwear.settingspage.SetPasswordActivity">
+        </activity>
+        <activity android:name = "com.mycloudwear.settingspage.VersionActivity">
+        </activity>
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat"/> <!-- optional (needed if default theme has no action bar) -->
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.mycloudwear.settingspage.fileprovider"
+            android:grantUriPermissions="true"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <activity
+            android:name = "com.mob.tools.MobUIShell"
+            android:theme = "@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges = "keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode = "stateHidden|adjustResize"/>
+        <!-- 通过AndroidManifest配置AppKey和AppSecret-->
+        <meta-data android:name = "Mob-AppKey" android:value = "2a40224122683"/>
+        <meta-data android:name = "Mob-AppSecret" android:value = "ffb91888388afca4c489da1e685a224f"/>
+        <meta-data android:name = "com.amap.api.v2.apikey" android:value = "4cb199ee8b0bbf875aa216d200e978c3"/>
+            <service android:name="com.amap.api.location.APSService"/>
+        <meta-data
+            android:name = "preloaded_fonts"
+            android:resource = "@array/preloaded_fonts" />
+    </application>
+
+</manifest>

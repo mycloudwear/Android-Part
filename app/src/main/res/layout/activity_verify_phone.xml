@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <RelativeLayout
+        android:id="@+id/include2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#ECECEE"
+        android:fitsSystemWindows="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/ib_title_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:paddingTop="20dp"
+            android:src="@mipmap/toolbar_left" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingTop="20dp"
+            android:text=""
+            android:textColor="#2A2A2A"
+            android:textSize="18sp"
+            android:typeface="sans" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/enter_mobile_phone"
+        android:textColor="@color/smssdk_lv_title_color"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include2" />
+
+    <Button
+        android:id="@+id/btn_code"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="86dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/underline"
+        android:gravity="left|center_vertical"
+        android:onClick="requestCountryCode"
+        android:text="+86"
+        android:textColor="@color/smssdk_gray"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/btn_choose"
+        android:layout_width="26dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="42dp"
+        app:layout_constraintStart_toStartOf="@+id/btn_code"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@mipmap/downward" />
+
+    <EditText
+        android:id="@+id/reg_phone"
+        android:layout_width="164dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/underline"
+        android:ems="10"
+        android:inputType="phone"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/edt_register_code"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Enter code"
+        android:inputType="numberPassword"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reg_phone" />
+
+    <Button
+        android:id="@+id/btn_register_send"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_parcel"
+        android:onClick="requestRegCode"
+        android:text="@string/send_code"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+
+        app:layout_constraintEnd_toEndOf="@+id/edt_register_code"
+        app:layout_constraintTop_toBottomOf="@+id/reg_phone" />
+
+    <Button
+        android:id="@+id/btn_register_next"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/btn_round"
+        android:onClick="nextToSetPwd"
+        android:text="@string/next"
+        android:textAllCaps="false"
+        android:textColor="@color/smssdk_bg_gray"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_register_code" />
+
+    <TextView
+        android:id="@+id/txt_register_term"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/app_register"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_register_next" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="5dp"
+        android:max="100"
+        android:progress="50"
+        android:progressDrawable="@drawable/progress_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include2" />
+
+
+</android.support.constraint.ConstraintLayout>

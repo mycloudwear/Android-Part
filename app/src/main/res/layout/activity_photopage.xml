@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stateListAnimator="@null">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@mipmap/home_background"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/txt_blank_1"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:paddingRight="20dp"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="@font/fugaz_one"
+                android:gravity="center"
+                android:text="@string/photo_management"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                app:fontFamily="serif" />
+
+            <TextView
+                android:id="@+id/txt_blank_2"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:paddingRight="20dp"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:background="#F5F6F7"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_top"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0"
+                android:background="#FEFFFF"
+                android:drawableRight="@mipmap/right_click"
+                android:gravity="center_vertical|center_horizontal|left"
+                android:onClick="gotoTop"
+                android:paddingLeft="40dp"
+                android:paddingRight="20dp"
+                android:text="@string/top"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:typeface="sans" />
+
+            <ImageView
+                android:id="@+id/image_top"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="-220dp"
+                android:layout_weight="0"
+                app:srcCompat="@mipmap/top" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_pant"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0"
+                android:background="#FEFFFF"
+                android:drawableRight="@mipmap/right_click"
+                android:gravity="center_vertical|center_horizontal|left"
+                android:onClick="gotoPant"
+                android:paddingLeft="40dp"
+                android:paddingRight="20dp"
+                android:text="@string/choose_pant"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:typeface="sans" />
+
+            <ImageView
+                android:id="@+id/image_pant"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="-220dp"
+                android:layout_weight="0"
+                app:srcCompat="@mipmap/pant" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_skirt"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0"
+                android:background="#FEFFFF"
+                android:drawableRight="@mipmap/right_click"
+                android:gravity="center_vertical|center_horizontal|left"
+                android:onClick="gotoSkirt"
+                android:paddingLeft="40dp"
+                android:paddingRight="20dp"
+                android:text="@string/choose_skirt"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:typeface="sans" />
+
+            <ImageView
+                android:id="@+id/image_skirt"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="-220dp"
+                android:layout_weight="0"
+                app:srcCompat="@mipmap/skirt" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:background="@mipmap/white_underline"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_home"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="-5dp"
+                android:onClick="clickHome"
+                app:srcCompat="@drawable/icon_home" />
+
+            <TextView
+                android:id="@+id/text_home"
+                android:layout_width="40dp"
+                android:layout_height="18dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:onClick="clickHome"
+                android:text="@string/home"
+                android:textColor="@drawable/text_color_change"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_photo"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:onClick="clickPhotos"
+                app:srcCompat="@drawable/icon_photo" />
+
+            <TextView
+                android:id="@+id/text_photo"
+                android:layout_width="36dp"
+                android:layout_height="18dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:onClick="clickPhotos"
+                android:text="@string/photos"
+                android:textColor="@drawable/text_color_change"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_me"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="5dp"
+                android:onClick="clickMe"
+                app:srcCompat="@drawable/icon_me" />
+
+            <TextView
+                android:id="@+id/text_me"
+                android:layout_width="40dp"
+                android:layout_height="18dp"
+                android:gravity="center"
+                android:onClick="clickMe"
+                android:text="@string/me"
+                android:textColor="@drawable/text_color_change"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

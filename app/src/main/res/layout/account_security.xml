@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEEF6">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#ECECEE"
+        android:fitsSystemWindows="true">
+
+        <ImageButton
+            android:id="@+id/ib_title_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:paddingTop="20dp"
+            android:src="@mipmap/toolbar_left" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingTop="20dp"
+            android:text="@string/account_security"
+            android:textColor="#2A2A2A"
+            android:textSize="18sp"
+            android:typeface="sans" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/title_id"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FEFFFF"
+            android:gravity="center_vertical|center_horizontal|left"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:stateListAnimator="@null"
+            android:text="@string/mycloudwear_id"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/show_id"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-220dp"
+            android:gravity="right|center_horizontal"
+            android:layout_weight="0" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_change_name"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FEFFFF"
+            android:gravity="center_vertical|center_horizontal|left"
+            android:onClick="changeUserName"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:drawableRight="@mipmap/right_click"
+            android:stateListAnimator="@null"
+            android:text="@string/change_user_name"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/show_name"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-220dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0"
+            android:gravity="right|center_horizontal" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_change_img"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FEFFFF"
+        android:gravity="center_vertical|center_horizontal|left"
+        android:onClick="changeProfile"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:drawableRight="@mipmap/right_click"
+        android:stateListAnimator="@null"
+        android:text="@string/change_head_img"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/btn_set_pwd"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FEFFFF"
+        android:gravity="center_vertical|center_horizontal|left"
+        android:onClick="setPassword"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:drawableRight="@mipmap/right_click"
+        android:stateListAnimator="@null"
+        android:text="@string/change_password"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/btn_delete_id"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FEFFFF"
+        android:gravity="center_vertical|center_horizontal"
+        android:onClick="deleteAccount"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:stateListAnimator="@null"
+        android:text="@string/delete_account"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:typeface="sans" />
+</LinearLayout>

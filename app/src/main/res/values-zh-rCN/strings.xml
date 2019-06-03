@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">云搭配</string>
+    <string name="app_copyright">
+        Copyright © 2019 北交大威海校区16级分组项目4号小组. All Rights Reserved.
+    </string>
+    <string name="remember_me">
+        记住账号
+    </string>
+    <string name="phone">
+        手机号码
+    </string>
+    <string name="phone_hint">
+        手机号码
+    </string>
+    <string name="confirm">
+        确认密码
+    </string>
+    <string name="password_hint">
+        密码
+    </string>
+    <string name="change_password">
+        更改密码
+    </string>
+    <string name="change_head_img">
+        更改头像
+    </string>
+    <string name="change_user_name">
+        更改用户名
+    </string>
+    <string name="select_a_photo">
+        选择照片
+    </string>
+    <string name="select_from_album">
+        选择相册照片
+    </string>
+    <string name="take_photo">
+        拍照
+    </string>
+    <string name="delete_account">
+        注销账户
+    </string>
+    <string name="creat_account">
+        新用户注册
+    </string>
+    <string name="forget_pwd">
+        忘记密码?
+    </string>
+    <string name="login">
+        登陆
+    </string>
+    <string name="logout">
+        退出当前账号
+    </string>
+    <string name="app_login">
+        登陆即代表阅读并同意
+    </string>
+    <string name="enter_mobile_phone">
+        输入手机号码
+    </string>
+    <string name="enter_sms_phone">
+        输入验证码
+    </string>
+    <string name="send_code">
+        发送
+    </string>
+    <string name="next">
+        下一步
+    </string>
+    <string name="cancel">
+        返回
+    </string>
+    <string name="reset_password">
+        设置或重置您的账号密码
+    </string>
+    <string name="reset_password_success">
+        密码重置成功!
+    </string>
+    <string name="photo_management">
+        相册管理
+    </string>
+    <string name="settings">
+        设置
+    </string>
+    <string name="account_security">
+        个人信息
+    </string>
+    <string name="profile">
+        身体数据
+    </string>
+    <string name="general">
+        通用
+    </string>
+    <string name="about">
+        关于
+    </string>
+    <string name="version">
+        版本 1.0.3
+    </string>
+    <string name="choose_gender">
+        请选择您的性别
+    </string>
+    <string name="help_and_feedback">
+        帮助和反馈
+    </string>
+    <string name="male">
+        男性
+    </string>
+    <string name="female">
+        女性
+    </string>
+    <string name="others">
+        其他
+    </string>
+    <string name="height">
+        身高
+    </string>
+    <string name="weight">
+        体重
+    </string>
+    <string name="update">
+        更新
+    </string>
+    <string name="like">
+        喜欢
+    </string>
+    <string name="dislike">
+        不喜欢
+    </string>
+    <string name="home">
+        首页
+    </string>
+    <string name="photos">
+        相册
+    </string>
+    <string name="me">
+        我
+    </string>
+    <string name="name">
+        用户名
+    </string>
+    <string name="questions">
+        所有问题
+    </string>
+    <string name="feedback">
+        反馈
+    </string>
+    <string name="fresh">
+        功能介绍
+    </string>
+    <string name="language">
+        多语言
+    </string>
+    <string name="version_update">
+        版本更新
+    </string>
+    <string name="question_1">
+        如何注销云搭配账号？
+    </string>
+    <string name="question_2">
+        如何管理相册
+    </string>
+    <string name="delete_account_guide">
+        注销账户指南
+    </string>
+    <string name="delete_photo_guide">
+        相册使用说明
+    </string>
+    <string name="terms_of_service">
+        服务条款
+    </string>
+    <string name="privacy">
+        隐私政策
+    </string>
+    <string name="and">
+        和
+    </string>
+    <string name="Continue">
+        确定
+    </string>
+    <string name="latest_version">
+        已经是最新版
+    </string>
+    <string name="what_is_fresh">
+        功能介绍
+    </string>
+    <string name="profile_update_successfully">
+        更新成功!
+    </string>
+    <string name="login_successfully">
+        登陆成功!
+    </string>
+    <string name="logout_successfully">
+        退出成功!
+    </string>
+    <string name="verification_successfully">
+        成功验证!
+    </string>
+    <string name="update_preference_successfully">
+        已上传您的反馈!
+    </string>
+    <string name="pwd_set_successfully">
+        密码设置成功！
+    </string>
+    <string name="login_fail">
+        登陆失败!\n输入的手机号或密码不正确，请重新输入！
+    </string>
+    <string name="msg_sent_fail">
+        短信发送失败!请稍后重新尝试.
+    </string>
+    <string name="verification_fail">
+        短信验证失败!
+    </string>
+    <string name="HTTP_404">
+        未找到对应的匹配值.
+    </string>
+    <string name="network_error">
+        服务器开小差.\n请稍后再试！
+    </string>
+    <string name="set_location">
+        定位:
+    </string>
+    <string name="weather_update">
+        最后一次更新在
+    </string>
+    <string name="wind_direction">
+        风向:
+    </string>
+    <string name="wind_level">
+        级
+    </string>
+    <string name="weather">
+        温度:
+    </string>
+    <string name="humidity">
+        湿度:
+    </string>
+    <string name="cannot_open_pic">
+        无法打开对应图片.
+    </string>
+    <string name="url_error">
+        无法打开对应图片.
+    </string>
+    <string name="io_error">
+        读写错误.
+    </string>
+    <string name="phone_pwd_cannot_empty">
+        手机号和密码不能为空.
+    </string>
+    <string name="height_and_weight_cannot_empty">
+        身高和体重不能为空!
+    </string>
+    <string name="pwd_cannot_empty">
+        密码不能为空.
+    </string>
+    <string name="sms_code_incorrect">
+        输入的验证码有误.
+    </string>
+    <string name="confirm_pwd_incorrect">
+        密码确认有误.
+    </string>
+    <string name="account_does_not_exist">
+        此手机号未注册!
+    </string><string name="please_enter_phone_number">
+        请输入您的手机号!
+    </string>
+    <string name="please_enter_sms_code">
+        请输入短信验证码.
+    </string>
+    <string name="code_has_sent">
+        验证码已发送.
+    </string>
+    <string name="phone_digit_incorrect">
+        手机号码位数不对.
+    </string>
+    <string name="phone_has_registered">
+        该手机号已注册!
+    </string>
+    <string name="app_register">
+        注册即代表阅读并同意 <a href='https://www.mycloudwear.com/WebLogin/docs/Privacy-ZH.html'>隐私政策</a>和<a href='https://www.mycloudwear.com/WebLogin/docs/Terms-Of-Service-ZH.html'>使用条款</a>.
+    </string>
+        <string name="not_receive_sms">
+        未收到验证码?请联系我们的服务中心: support@mycloudwear.com.
+    </string>
+        <string name="password_warning">
+        密码必须在8-16字符之间且包含特殊符号或数字.
+    </string>
+        <string name="set_pwd_later">
+        如果您不想立即设置密码, 您可以点击左上角的取消按钮并在之后设置.
+    </string>
+    <string name="email_contact">
+        如果您在使用中有任何疑问,我们很乐意通过邮件的方式协助您(support@mycloudwear.com).
+    </string>
+    <string name="delete_account_warning">
+        将永久注销您的账户且清楚与您相关的所有数据(包括但不限于个人偏好，隐私信息等). 您确定要注销账户吗？
+    </string>
+    <string name="refresh_success">
+        更新成功
+    </string>
+    <string name="photo_size">
+        图片大小需小于 1.3 MB.
+    </string>
+    <string name="select">
+        确定
+    </string>
+    <string name="top">
+        上装
+    </string>
+    <string name="choose_skirt">
+        裙子
+    </string>
+    <string name="notification">
+        消息
+    </string>
+    <string name="no_message">
+        暂无消息
+    </string>
+    <string name="choose_pant">
+        下装
+    </string>
+    <string name="mycloudwear_id">
+        云搭配号
+    </string>
+    <string name="ok">
+        确定
+    </string>
+    <string name="upload_success">
+        上传成功!
+    </string>
+    <string name="Male">
+        男性
+    </string>
+    <string name="Female">
+        女性
+    </string>
+    <string name="Others">
+        其他
+    </string>
+    <string name="camera">
+        拍一张
+    </string>
+    <string name="name_length">名字长度应小于20个字符</string>
+    <string name="album">相册</string>
+    <string name="password_length_incorrect">密码长度不符合要求</string>
+    <string name="pwd_require_special_character">密码中至少需要含有一个特殊字符</string>
+    <string name="delete_successfully">删除成功</string>
+    <string name="really_delete_photo">是否确定删除该照片？</string>
+    <string name="delete_cancel">取消删除</string>
+    <string name="hello">你好</string>
+    <string name="update_result">我们已为您准备好新的匹配结果.</string>
+    <string name="sd_card_not_available">当前存储卡不可用!</string>
+    <string name="please_open_permission">请打开权限!</string>
+    <string name="no_image_scanned">未扫描到任何图片</string>
+    <string name="loading">正在加载</string>
+</resources>
