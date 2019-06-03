@@ -1,6 +1,5 @@
 [中文指南](README_CN.md) | English User Guide
-# MyCloudwear User Guide
-**Category**
+**Table of Contents**
 - [MyCloudwear User Guide](#mycloudwear-user-guide)
   * [1  Sign Up](#1--sign-up)
   * [2  Sign In](#2--sign-in)
@@ -30,7 +29,7 @@
       - [c. Terms of Service and Privacy Policy](#c-terms-of-service-and-privacy-policy)
     + [5.6 Log Out](#56-log-out)
 
-
+# MyCloudwear User Guide
 ## 1  Sign Up
 Welcome to use Group 4 MyCloudwear services! MyCloudwear matching was developed by BJTU Group 4, a group project of Beijing Jiaotong University.
 By using the software for the first time, you need to sign up for a new account of your own to use the various services we offer.
