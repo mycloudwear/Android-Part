@@ -8,8 +8,8 @@ package com.mycloudwear.library;
  */
 public interface TranslateOnline {
 
-    String APP_ID = "20190323000280488";
-    String SECURITY_KEY = "FusxwfGKPtQXKrfDtPDq";
+    String APP_ID = "Your app id";
+    String SECURITY_KEY = "Your security key";
 
     static String translateToEnglish(String input){
         TransApi api = new TransApi(APP_ID, SECURITY_KEY);
