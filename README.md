@@ -260,8 +260,7 @@ If you want to learn more about this, you can click **Terms of Service** and **P
 ### 5.6 Log Out
 If you want to log out this account or switch to another account, you can click **Log Out** button at **Me**, the account will be logged out and switch to the page of Log in. 
 # API Usage
-**AuoNavi Android 2D Map SDK** for location: https://lbs.amap.com/api/android-sdk/download
-
+**AuoNavi Android 2D Map SDK** for location: https://lbs.amap.com/api/android-sdk/download <br>
 **Baidu Universal Translation API** for online translation: http://api.fanyi.baidu.com/api/trans/product/prodinfo
 # Acknowledgement
 * **Junwen Jiang** for [SelectPhotoDemo](https://github.com/kongkongdaren/SelectPhotoDemo)  
