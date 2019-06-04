@@ -29,9 +29,10 @@
         * [5.6  退出登录](#56--退出登录)
  * [感谢](#感谢)
 # 云搭配用户使用指南
-[![License](https://img.shields.io/badge/License-Apache%202-brightgreen.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+[![Badge](https://img.shields.io/badge/Website-MyCloudwear-%2322B8DB.svg)](https://mycloudwear.com)
+[![LICENSE](https://img.shields.io/badge/License-Anti%20996-%23FF4D5B.svg?style=flat-square)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![API](https://img.shields.io/badge/API-28%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=28)
-[![Size](https://img.shields.io/badge/Size-226.4MB-critical.svg)](https://fir.im/d1pn)
+[![Size](https://img.shields.io/badge/Size-226.4MB-important.svg)](https://fir.im/d1pn)
 
 中文指南 | [English User Guide](README.md)
 ## 1  新用户注册
