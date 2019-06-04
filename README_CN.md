@@ -27,6 +27,7 @@
            * [b.  版本更新](#b--版本更新)
            * [c. 服务条款与隐私政策](#c-服务条款与隐私政策)
         * [5.6  退出登录](#56--退出登录)
+ * [第三方API](#第三方API)
  * [感谢](#感谢)
 # 云搭配用户使用指南
 [![Badge](https://img.shields.io/badge/Website-MyCloudwear-%2322B8DB.svg)](https://mycloudwear.com)
@@ -255,6 +256,9 @@
 如果您想对我们的**服务条款**与**隐私政策**有更加全面细致的了解，您可以在此点击对应的文字，我们将会向您完整呈现我们的服务条款与隐私政策，如仍有其他疑问，可以参照**5.4  帮助和反馈**与我们取得联系。
 ### 5.6  退出登录
 如果您希望退出登录本账号或者切换账号，您可以在**我**中点击**退出当前账号**按钮，退出账号返回到登录页面。
+# 第三方API
+**高德Android地图SDK**实现实时定位: https://lbs.amap.com/api/android-sdk/download <br>
+**百度通用翻译API**实现在线翻译: http://api.fanyi.baidu.com/api/trans/product/prodinfo
 # 感谢
 * **姜文莒**的[SelectPhotoDemo](https://github.com/kongkongdaren/SelectPhotoDemo)  
 * **linqianyue**的[country-picker-android](https://github.com/sahooz/country-picker-android)
