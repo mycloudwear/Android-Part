@@ -29,10 +29,10 @@
         * [5.6 Log Out](#56-log-out)
  * [Acknowledgement](#acknowledgement)
 # MyCloudwear User Guide
-[![Badge](https://img.shields.io/badge/Website-MyCloudwear-9cf.svg?style=flat-square)](https://mycloudwear.com)
+[![Badge](https://img.shields.io/badge/Website-MyCloudwear-%2322B8DB.svg)](https://mycloudwear.com)
 [![LICENSE](https://img.shields.io/badge/License-Anti%20996-%23FF4D5B.svg?style=flat-square)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![API](https://img.shields.io/badge/API-28%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=28)
-[![Size](https://img.shields.io/badge/Size-226.4MB-critical.svg)](https://fir.im/d1pn)
+[![Size](https://img.shields.io/badge/Size-226.4MB-important.svg)](https://fir.im/d1pn)
 
 [中文指南](README_CN.md) | English User Guide
 ## 1  Sign Up
