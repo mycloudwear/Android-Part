@@ -30,7 +30,7 @@
  * [感谢](#感谢)
 # 云搭配用户使用指南
 [![Badge](https://img.shields.io/badge/Website-MyCloudwear-%2322B8DB.svg)](https://mycloudwear.com)
-[![LICENSE](https://img.shields.io/badge/License-Anti%20996-%23FF4D5B.svg?style=flat-square)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+[![LICENSE](https://img.shields.io/badge/License-Anti%20996-%23FF4D5B.svg?style=flat-square)](https://github.com/996icu/996.ICU/blob/master/LICENSE_CN)
 [![API](https://img.shields.io/badge/API-28%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=28)
 [![Size](https://img.shields.io/badge/Size-226.4MB-important.svg)](https://fir.im/d1pn)
 
