@@ -40,15 +40,15 @@
 Welcome to use Group 4 MyCloudwear services! MyCloudwear matching was developed by BJTU Group 4, a group project of Beijing Jiaotong University.
 By using the software for the first time, you need to sign up for a new account of your own to use the various services we offer.
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_EN/1_%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E8%8B%B1%E6%96%87%E7%95%8C%E9%9D%A2/1_%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.jpg" width="250" />
+</p>
 
 Every time you open MyCloudwear, the software will automatically display the login page. Click the **Create an account** button to switch to the user registration page.
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_EN/1_%E6%96%B0%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E8%8B%B1%E6%96%87%E7%95%8C%E9%9D%A2/1_%E6%96%B0%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C.jpg" width="250" />
+</p>
 
 In this page, you need to register a new account with your mobile phone number:
 1. Firstly, click to select the region of your mobile phone number and enter your mobile number.
@@ -56,9 +56,9 @@ In this page, you need to register a new account with your mobile phone number:
 3. Click the **Next** button for further action.
 4. In this page, you can browse our **Privacy Policy** and **Terms of Service**. Once clicking the **Next** button,  you agree to all policies and terms.
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_EN/1_%E6%9B%B4%E6%94%B9%E5%AF%86%E7%A0%81.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E8%8B%B1%E6%96%87%E7%95%8C%E9%9D%A2/1_%E6%9B%B4%E6%94%B9%E5%AF%86%E7%A0%81.jpg" width="250" />
+</p>
 
 In this page, you can set (or reset) your own password:
 1. Enter the password you want in the **Password** text field. What is important is that the password must be between 8 and 16 characters long and must contain at least one special character.
@@ -69,9 +69,9 @@ In this page, you can set (or reset) your own password:
 ## 2  Sign In
 Every time open the app, the app will switch to this login page for you to log in.
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_EN/1_%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E8%8B%B1%E6%96%87%E7%95%8C%E9%9D%A2/1_%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.jpg" width="250" />
+</p>
 
 1. First, you should choose your country or region code of your location at **Phone Number** text field, and then enter your phone number at the same field.
 2. Enter your password into the **Password** text field. You can click the **Privacy** button on the right to choose whether to enter the password implicitly or explicitly.
@@ -83,9 +83,9 @@ If you forget your password of your account, you can click the **Forget Password
 ## 3  Homepage
 Homepage is the core page of our app, from which you can use most of our services and perform major interactions.
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_EN/1_%E4%B8%BB%E9%A1%B5.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E8%8B%B1%E6%96%87%E7%95%8C%E9%9D%A2/1_%E4%B8%BB%E9%A1%B5.jpg" width="250" />
+</p>
 
 MyCloudwear provides 3 buttons for you to switch among pages in the :
 * **Home**
@@ -104,9 +104,9 @@ Meanwhile, you can **pull down** the image on the homepage to start the matching
 ## 4  Photo Management
 **Photo Management**is also one of our core functions. At this page, you can update you clothes images in your albums and enrich your choices continually.
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_EN/1_%E7%9B%B8%E5%86%8C%E7%AE%A1%E7%90%86.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E8%8B%B1%E6%96%87%E7%95%8C%E9%9D%A2/1_%E7%9B%B8%E5%86%8C%E7%AE%A1%E7%90%86.jpg" width="250" />
+</p>
 
 At this page, we devide your choices into three categories.
 * **Tops**
@@ -119,30 +119,30 @@ When you add new clothes, you should add your clothes into the right category so
 Click the category which you want to upload, the application will switch to the specific album and display images what you have added to the album. Meanwhile, you can also click the **Camera** button to upload the new clothes to the album.
 1. **Choose from Album**: You can upload your existing images from your system album. This operation supports your do the multi-photoes upload.
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_EN/1_%E4%BB%8E%E7%9B%B8%E5%86%8C%E4%B8%AD%E9%80%89%E6%8B%A9.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E8%8B%B1%E6%96%87%E7%95%8C%E9%9D%A2/1_%E4%BB%8E%E7%9B%B8%E5%86%8C%E4%B8%AD%E9%80%89%E6%8B%A9.jpg" width="250" />
+</p>
 
 2. **Camera**: You also can upload the new image from the application camera, After taking the photo, we also provide you with edit opertion, you can also edit the clothes images to the suitable size and then upload to the album.
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_EN/1_%E6%8B%8D%E4%B8%80%E5%BC%A0.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E8%8B%B1%E6%96%87%E7%95%8C%E9%9D%A2/1_%E6%8B%8D%E4%B8%80%E5%BC%A0.jpg" width="250" />
+</p>
 
 **Attention**: We recommend that you please take the images in a place with ufficient illumination and clean background as far as possible in order to ensure the correctness and accuracy of clothing matching.
 
 ### 4.2 Delete Images
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_EN/1_%E5%88%A0%E9%99%A4%E7%85%A7%E7%89%87.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E8%8B%B1%E6%96%87%E7%95%8C%E9%9D%A2/1_%E5%88%A0%E9%99%A4%E7%85%A7%E7%89%87.jpg" width="250" />
+</p>
 
 If you dislike one of the images, or you do not want this image to appear again in the matching result, you can choose delete this image from the album. You can **long press** the image which you do not want any more, and then choose **OK** at the following dialog, this image will be deleted from your album forever. However, if you do not want to delete this image, you also cam choose **Cancel** at the dialog, the delete opertion will be canceled. 
 ## 5 Me
 On the **Me** page, you can make changes to all of your personal information and system settings in detail.
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_EN/1_%E8%AE%BE%E7%BD%AE.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E8%8B%B1%E6%96%87%E7%95%8C%E9%9D%A2/1_%E8%AE%BE%E7%BD%AE.jpg" width="250" />
+</p>
 
 We divided it into the following sections:
 * **Personal Information**
@@ -156,35 +156,35 @@ We will explain these in more details next.
 ### 5.1 Personal Information
 In this page, we mainly show you all the information about your account, and you can make changes to the relevant information.
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_EN/1_%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E8%8B%B1%E6%96%87%E7%95%8C%E9%9D%A2/1_%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF.jpg" width="250" />
+</p>
 
 As your ID that identifies your account, your mobile phone number cannot be modified in any circumstances.
 #### a. Changing User Name
 Although you cannot change your mobile number, you are free to modify your username.
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_EN/1_%E7%94%A8%E6%88%B7%E5%90%8D.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E8%8B%B1%E6%96%87%E7%95%8C%E9%9D%A2/1_%E7%94%A8%E6%88%B7%E5%90%8D.jpg" width="250" />
+</p>
 
 Select the **Change User Name** button in the **Personal Information**, and in the pop-up page, you can modify your username in the text box. Once the changes are completed, click the **Update** button. Once username is updated successfully, the app will return to the **Personal Information** page.
 **Attention**: The username you upload must comply with the relevant laws and regulations of the country, otherwise, we will take bans on those who use the prohibited username.
 #### b. Change Photo
 You are free to modify your avatar to your favourite picture.
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_EN/1_%E6%9B%B4%E6%94%B9%E5%A4%B4%E5%83%8F.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E8%8B%B1%E6%96%87%E7%95%8C%E9%9D%A2/1_%E6%9B%B4%E6%94%B9%E5%A4%B4%E5%83%8F.jpg" width="250" />
+</p>
 
 Select the **Change Photo** button in the **Personal Information**. And in the pop-up page, click the **SELECT A PHOTO** button, you can update your own avatar by **Choose from Album** or **Camera**. Once the selection is completed, the new avatar will be automatically saved and updated.
 **Attention**: The avatar you upload must comply with the relevant laws and regulations of the country, otherwise, we will take bans on those who use the banned avatar.
 #### c. Change Password
 You can choose the Change Password button in the Personal Information and modify your password in the pop-up page.
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_EN/1_%E6%9B%B4%E6%94%B9%E5%AF%86%E7%A0%81.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E8%8B%B1%E6%96%87%E7%95%8C%E9%9D%A2/1_%E6%9B%B4%E6%94%B9%E5%AF%86%E7%A0%81.jpg" width="250" />
+</p>
 
 1. Enter the password you want in the **Password** text field. What is important is that the password must be between 8 and 16 characters long and must contain at least one special character.
 2. Next, enter your password repeatedly in the **Confirm** text field. Note that the two passwords must remain the same.
@@ -193,9 +193,9 @@ You can choose the Change Password button in the Personal Information and modify
 #### d. Delete Account
 If you decide not to use your account anymore, you can choose to delete your account in oder to protect your privacy.
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_EN/1_%E6%B3%A8%E9%94%80%E8%B4%A6%E6%88%B7.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E8%8B%B1%E6%96%87%E7%95%8C%E9%9D%A2/1_%E6%B3%A8%E9%94%80%E8%B4%A6%E6%88%B7.jpg" width="250" />
+</p>
 
 At the page of **Personal Information** and click the **Delete Account** button, please read the contents in the dialog carefully. If you still want to delete your account, please click **OK** button, your account will be completely removed from our servers. However, if you do not want to delete your account anymore, you can click **Cancel** button and cancel this opertion.
 **Attention**: Delete your account is a one-time operation and cannot be withdrawn, please consider it carefully.
@@ -203,9 +203,9 @@ At the page of **Personal Information** and click the **Delete Account** button,
 ### 5.2 Profile Setting
 Your personal physical data is one of the important function of our matching, you can fill in your gender, height and weight and other physical data in this page. We will recommend the most suitable matching results according these data.
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_EN/1_BMI.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E8%8B%B1%E6%96%87%E7%95%8C%E9%9D%A2/1_BMI.jpg" width="250" />
+</p>
 
 In this page, you can set your gender as **Male**, **Female** or **Other**. And then, you shoule fill your height(cm) and weight(kg) data, After that, we will generate your BMI Index according to the internation standard. We guarantee that the all personal data will be your privacy and we will not share it with anyone.
 After the fill in, please click the **Updata** button, your personal data will be saved and switch to the previous page.
@@ -214,23 +214,23 @@ After the fill in, please click the **Updata** button, your personal data will b
 At the page, you can complete settings related to the application, and we divide it into the following parts:
 * language
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_EN/1_%E9%80%9A%E7%94%A8.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E8%8B%B1%E6%96%87%E7%95%8C%E9%9D%A2/1_%E9%80%9A%E7%94%A8.jpg" width="250" />
+</p>
 
 #### a. Language Setting
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_EN/1_%E8%AF%AD%E8%A8%80.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E8%8B%B1%E6%96%87%E7%95%8C%E9%9D%A2/1_%E8%AF%AD%E8%A8%80.jpg" width="250" />
+</p>
 
 When you at the **General** page, you can click the **Language** button, you can choose the System Language at the following dialog. We provide **English** and **简体中文** for you at present. We also provide more language choices in the future version updates in order to make your use more convenient.
 ### 2.5.4 Help & Feedback
 You will learn how to use our application at the **Help & Feedback** page. Besides that, you can find our contact information and provide your advices to us. It is our honour to be able to listen to your voice.
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_EN/1_%E5%B8%AE%E5%8A%A9%E5%92%8C%E5%8F%8D%E9%A6%88.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E8%8B%B1%E6%96%87%E7%95%8C%E9%9D%A2/1_%E5%B8%AE%E5%8A%A9%E5%92%8C%E5%8F%8D%E9%A6%88.jpg" width="250" />
+</p>
 
 #### a. Check All Questions
 At the **Help and Feedback** page, we have prepared answers of two frequently asked question for you, they are:
@@ -246,9 +246,9 @@ You can check details about MyCloudwear in the **About** pages, including:
 * **Version Update**
 * **Terms of Service** and **Privacy Policy**
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_EN/1_%E5%85%B3%E4%BA%8E.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E8%8B%B1%E6%96%87%E7%95%8C%E9%9D%A2/1_%E5%85%B3%E4%BA%8E.jpg" width="250" />
+</p>
 
 #### a. Function Introduction
 You can click the **What’s Fresh** button in the **About** page to view our brief introduction about the function of MyCloudwear.
