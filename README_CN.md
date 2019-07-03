@@ -40,15 +40,15 @@
 欢迎您使用Group 4云搭配软件及服务！ 云搭配由北京交通大学分组项目BJTU Group 4开发。
 对于每一个第一次使用云搭配的新用户，您需要注册一个属于自己的全新账号才可以使用我们为您所提供的各种服务。
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_CN/1_%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.jpg" width="250" />
-</div>
+<p align="center">
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E4%B8%AD%E6%96%87%E7%95%8C%E9%9D%A2/1_%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.jpg" width="250" />
+</p>
 
 当您每次打开云搭配，软件会自动跳转至用户登录界面。点击**新用户注册**按钮，可以跳转至用户注册界面。
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_CN/1_%E6%96%B0%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C1.jpg" width="250" />
-</div>
+<p align="center">
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E4%B8%AD%E6%96%87%E7%95%8C%E9%9D%A2/1_%E6%96%B0%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C1.jpg" width="250" />
+</p>
 
 在此页面，您需要通过自己的手机号注册新账号：
 1. 您需要点击选择自己手机号码所属地区，并输入自己的手机号码。
@@ -56,9 +56,9 @@
 3. 点击**下一步**按钮，进行进一步的操作。
 4. 在此界面，您可以浏览我们的隐私政策与使用条款。当您点击**下一步**时，即代表您同意了我们的所有政策和条款。
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_CN/1_%E8%AE%BE%E7%BD%AE%E6%88%96%E9%87%8D%E7%BD%AE%E6%82%A8%E7%9A%84%E8%B4%A6%E5%8F%B7%E5%92%8C%E5%AF%86%E7%A0%81.jpg" width="250" />
-</div>
+<p align="center">
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E4%B8%AD%E6%96%87%E7%95%8C%E9%9D%A2/1_%E8%AE%BE%E7%BD%AE%E6%88%96%E9%87%8D%E7%BD%AE%E6%82%A8%E7%9A%84%E8%B4%A6%E5%8F%B7%E5%92%8C%E5%AF%86%E7%A0%81.jpg" width="250" />
+</p>
 
 在此界面，您可以设置自己的密码：
 1. 您可以在此界面的**密码**文本框内输入自己想要的密码，需要特别注意的是，密码的长度必须在8-16位之间，且必须包含至少一个特殊字符。
@@ -69,9 +69,9 @@
 ## 2  用户登录
 每次当您打开应用之后，应用会跳转到此登录界面以便您进行登录操作。
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_CN/1_%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.jpg" width="250" />
-</div>
+<p align="center">
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E4%B8%AD%E6%96%87%E7%95%8C%E9%9D%A2/1_%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.jpg" width="250" />
+</p>
 
 1. 您需要在**手机号码**文本框内点击选择自己手机号码所属地区，并输入自己的手机号码。
 2. 您需要在**密码**文本框内输入自己的密码，您可以点击右侧**隐私**按钮选择隐式或显式输入自己的密码，以保护自己的隐私或确认输入密码的正确性。
@@ -82,9 +82,9 @@
 ## 3  首页查看
 **首页**是我们应用的核心界面，您可以在此查看到我们为您提供的绝大部分服务，并完成大部分的操作。
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_CN/1_%E4%B8%BB%E9%A1%B5.jpg" width="250" />
-</div>
+<p align="center">
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E4%B8%AD%E6%96%87%E7%95%8C%E9%9D%A2/1_%E4%B8%BB%E9%A1%B5.jpg" width="250" />
+</p>
 
 在软件界面的底部导航栏中，我们为您提供了三个按钮以供您在不同界面之间进行跳转：
 * **首页**
@@ -102,9 +102,9 @@
 ## 4  相册管理
 **相册管理**同样是我们的核心功能之一。在此界面，您可以不断地更新您相册中的衣物，丰富您的选择。
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_CN/1_%E7%9B%B8%E5%86%8C%E7%AE%A1%E7%90%86.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E4%B8%AD%E6%96%87%E7%95%8C%E9%9D%A2/1_%E7%9B%B8%E5%86%8C%E7%AE%A1%E7%90%86.jpg" width="250" />
+</p>
 
 在此界面中，我们将您的衣物分成了如下三类：
 * **上装**
@@ -117,30 +117,30 @@
 为了方便您上传照片，我们为您提供了如下两种方式以供您将衣物照片添加至相册：
 1. **选择相册照片**：您可以直接从自己的手机相册中的选择已有照片上传，这个操作同时支持您选择多张照片一起上传。
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_CN/1_%E9%80%89%E6%8B%A9%E7%9B%B8%E5%86%8C%E7%85%A7%E7%89%87.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E4%B8%AD%E6%96%87%E7%95%8C%E9%9D%A2/1_%E9%80%89%E6%8B%A9%E7%9B%B8%E5%86%8C%E7%85%A7%E7%89%87.jpg" width="250" />
+</p>
 
 2. **拍一张**：您也可以选择直接从相机中拍摄新的照片上传至相册，拍摄完成后，我们也为您提供了裁切操作，您可以将衣物图片裁切至合适的尺寸再上传。
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_CN/1_%E6%8B%8D%E4%B8%80%E5%BC%A0.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E4%B8%AD%E6%96%87%E7%95%8C%E9%9D%A2/1_%E6%8B%8D%E4%B8%80%E5%BC%A0.jpg" width="250" />
+</p>
 
 **注意**：为了确保衣物识别的正确性与准确性，我们建议您尽量在光线充足，背景整洁的环境下拍摄照片。
 ### 4.2  删除照片
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_CN/1_%E5%88%A0%E9%99%A4%E7%85%A7%E7%89%87.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E4%B8%AD%E6%96%87%E7%95%8C%E9%9D%A2/1_%E5%88%A0%E9%99%A4%E7%85%A7%E7%89%87.jpg" width="250" />
+</p>
 
 如果您对图库中的某张照片不满意或者不想让其再次出现在匹配结果中，您可以选择将其从您的相册中删除。**长按**您希望删除的照片，并在紧接着弹出的对话框中选择**确定**，这张照片便可以从您的相册中永久删除。如果您不希望删除此照片，您也可以在弹出的对话框中选择**取消**，即可取消删除操作。
 ## 5  个人设置
 在**我**这一页面中，您可以对您的所有个人信息和系统设置进行详细地更改。
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_CN/1_%E6%88%91.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E4%B8%AD%E6%96%87%E7%95%8C%E9%9D%A2/1_%E6%88%91.jpg" width="250" />
+</p>
 
 我们将其分成了如下几个部分：
 * 个人信息
@@ -154,35 +154,35 @@
 ### 5.1  个人信息
 在此界面中，我们主要向您展示了关于您账号的所有信息，并且可以针对相关信息可以更改。
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_CN/1_%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E4%B8%AD%E6%96%87%E7%95%8C%E9%9D%A2/1_%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF.jpg" width="250" />
+</p>
 
 您的手机号作为标识您账号的ID不可以被修改。
 #### a.  更改用户名
 虽然您无法更改您的手机号，但是您可以自由修改您的用户名。
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_CN/1_%E7%94%A8%E6%88%B7%E5%90%8D%E4%BF%AE%E6%94%B9.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E4%B8%AD%E6%96%87%E7%95%8C%E9%9D%A2/1_%E7%94%A8%E6%88%B7%E5%90%8D%E4%BF%AE%E6%94%B9.jpg" width="250" />
+</p>
 
 在**个人信息**中选择**更改用户名**按钮，在弹出的页面中您可以在文本框中随意修改您的用户名。修改完成后，点击**更新**按钮，您的用户名便会完成更新，并退回到**个人信息**页。
 **注意**：您上传的用户名必须符合本国相关法律法规的要求，我们将会对使用违禁用户名的用户采取封禁措施。
 #### b.  更改头像
 在应用中，您可以随意修改您的头像为您喜欢的图片。
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_CN/1_%E6%9B%B4%E6%94%B9%E5%A4%B4%E5%83%8F.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E4%B8%AD%E6%96%87%E7%95%8C%E9%9D%A2/1_%E6%9B%B4%E6%94%B9%E5%A4%B4%E5%83%8F.jpg" width="250" />
+</p>
 
 在**个人信息**中选择**更改头像**按钮，，在弹出的页面中您可以修改您自己的头像。在此页面中，点击**选择照片**按钮，与上传衣物图片至相册类似，您可以通过**选择相册照片**或**拍一张**更新您自己的头像。选择完成后，新头像会自动保存并更新至您的账号。
 **注意**：您上传的头像必须符合本国相关法律法规的要求，我们将会对使用违禁头像的用户采取封禁措施。
 #### c.  更改密码
 如果您希望更改自己的密码，您可以在**个人信息**中选择**更改密码**按钮，在弹出的界面修改您的密码。
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_CN/1_%E8%AE%BE%E7%BD%AE%E6%88%96%E9%87%8D%E7%BD%AE%E6%82%A8%E7%9A%84%E8%B4%A6%E5%8F%B7%E5%92%8C%E5%AF%86%E7%A0%81.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E4%B8%AD%E6%96%87%E7%95%8C%E9%9D%A2/1_%E8%AE%BE%E7%BD%AE%E6%88%96%E9%87%8D%E7%BD%AE%E6%82%A8%E7%9A%84%E8%B4%A6%E5%8F%B7%E5%92%8C%E5%AF%86%E7%A0%81.jpg" width="250" />
+</p>
 
 1. 您可以在此界面的**密码**文本框内输入自己想要的密码，需要特别注意的是，密码的长度必须在8-16位之间，且必须包含至少一个特殊字符。
 2. 紧接着，您需要在**确认密码**文本框内重复输入自己的密码，需要注意的是，两次的密码必须保持相同。
@@ -192,9 +192,9 @@
 #### d.  注销账户
 如果您决定不再使用此账户，为了保护您账户的安全性，您可以选择从应用中注销您自己的账户。
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_CN/1_%E6%B3%A8%E9%94%80%E8%B4%A6%E6%88%B7.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E4%B8%AD%E6%96%87%E7%95%8C%E9%9D%A2/1_%E6%B3%A8%E9%94%80%E8%B4%A6%E6%88%B7.jpg" width="250" />
+</p>
 
 在**个人信息**中选择**注销账户**按钮，请您仔细阅读弹出对话框内的内容，如果依然确定要注销您的账户，请点击**确定**按钮，您的账户便会从我们的服务器中彻底删除；如果您不希望注销账户，您也可以在弹出的对话框中选择**取消**，即可取消注销账户。
 **注意**：注销账户的操作是一次性的且无法撤回，请您慎重考虑。
@@ -202,9 +202,9 @@
 ### 5.2  身体数据
 您的个人身体数据是我们进行匹配的重要标准，您可以在此页面中填写您的性别、身高、体重等个人数据。我们将会基于您填写的这些数据为您推荐最适合您的服装搭配模式。
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_CN/1_%E8%BA%AB%E4%BD%93%E6%95%B0%E6%8D%AE.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E4%B8%AD%E6%96%87%E7%95%8C%E9%9D%A2/1_%E8%BA%AB%E4%BD%93%E6%95%B0%E6%8D%AE.jpg" width="250" />
+</p>
 
 在此界面中，您可以设置您的性别为**男性**、**女性**、**其他**中的其中之一。之后，请您如实填写您的身高（以cm为单位）和体重（以kg为单位）数据，我们会根据国际标准自动为您生成你的BMI数据。BMI数据是我们生成匹配结果的重要标准之一。我们保证，这将会是您的个人隐私，我们不会与任何人共享。
 填写完成后，点击**更新**按钮，您填写的数据会自动保存并退回至先前的页面。
@@ -212,23 +212,23 @@
 在此界面中，您可以完成和应用相关的一些设置，我们将其分成了如下部分：
 * 语言设置
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_CN/1_%E9%80%9A%E7%94%A8.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E4%B8%AD%E6%96%87%E7%95%8C%E9%9D%A2/1_%E9%80%9A%E7%94%A8.jpg" width="250" />
+</p>
 
 #### a.  语言设置
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_CN/1_%E8%AF%AD%E8%A8%80%E9%80%89%E6%8B%A9.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E4%B8%AD%E6%96%87%E7%95%8C%E9%9D%A2/1_%E8%AF%AD%E8%A8%80%E9%80%89%E6%8B%A9.jpg" width="250" />
+</p>
 
 在**通用**界面中，您可以选择**语言设置**按钮，在弹出的对话框中选择您希望使用的语言；目前，我们为您提供**简体中文**和**English**两种语言供您选择。在后续的版本更新中，我们会为您提供更为多样的语言设置方便您的使用。
 ### 5.4  帮助和反馈
 在此界面中，您可以了解到如何使用我们的应用，并可以获取我们的联系方式并向我们提出您宝贵的建议，我们将会很高兴聆听到您的声音。
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_CN/1_%E5%B8%AE%E5%8A%A9%E5%92%8C%E5%8F%8D%E9%A6%88.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E4%B8%AD%E6%96%87%E7%95%8C%E9%9D%A2/1_%E5%B8%AE%E5%8A%A9%E5%92%8C%E5%8F%8D%E9%A6%88.jpg" width="250" />
+</p>
 
 #### a.  查看常见问题
 在**帮助与反馈**页面中，我们目前准备了两个常见问题的答案供您参考，他们分别是：
@@ -244,9 +244,9 @@
 * 版本更新
 * 查看**服务条款**与**隐私政策**
 
-<div align=center>
-<img src="http://prlesh78p.bkt.clouddn.com/image/GroupProject/UserGuide_CN/1_%E5%85%B3%E4%BA%8E.jpg" width="250" />
-</div>
+<p align=center>
+<img src="https://github.com/mycloudwear/Android-Part/blob/master/images/%E4%B8%AD%E6%96%87%E7%95%8C%E9%9D%A2/1_%E5%85%B3%E4%BA%8E.jpg" width="250" />
+</p>
 
 #### a.  功能介绍
 在**关于**界面中点击**功能介绍**按钮，您将会浏览到我们对于此应用功能的简单说明。
